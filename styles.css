@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:root {
+    --primary-color : #902A2A;
+    --secondary-color: #C73E3E;
+    --heading-color : #222222;
+    --body-color : #424242;
+}
+
+body{
+    font-family: 'DM Sans' , sans-serif;
+    font-size: 18px;
+}
+
+hr {
+    margin: 2rem;
+}
+
+h1,h2,h3 {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 32px;
+    color: var(--heading-color);
+}
+
+h2 {
+    font-size: 24px;
+    color: var(--heading-color);
+}
+
+p {
+    color: var(--body-color);
+}
+
+.container{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.link {
+    font-weight: 500;
+    text-decoration: none;
+    padding: 12px 16px;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+}
+
+.secondary-link {
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.list {
+    list-style : none;
+}
+
+.non-bullet-inline li{
+    display: inline;
+    padding: 0px 16px;
+}
+
+.navigation {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 1.5rem;
+}
+
+.navigation .personallogo
+{
+    margin: auto;
+    max-width: 80px;
+}
+
+.navigation .nav-elements{
+    max-width: 600px;
+    text-align: center;
+    padding: 0px;
+}
+
+.navigation .list li{
+    display: inline;
+    padding: 0px 16px 0px 0px;
+}
+
+.navigation .list a {
+    text-decoration: none;
+    color: var(--body-color);
+}
+
+.navigation li .link-element-active {
+    font-weight: 700;
+}
+
+.hero {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.hero .hero-img {
+    max-width: 270px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-header {
+    color: var(--heading-color);
+    text-align: center;
+
+}
+
+.section {
+    padding: 2rem 2rem;
+}
+
+.section h2 {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding : 2rem 3rem;
+}
+
+.footer .list a {
+    text-decoration: none;
+    color: var(--body-color);
+}
+
+.footer .list li{
+    display: inline;
+    padding: 0px 16px;
+}
+
+.footer .footer-elements {
+    padding:  0px;
+}
+
