@@ -66,6 +66,12 @@ h2{
     font-size: 16px;
 }
 
+.secondary-link:hover {
+    background-color: black;
+    color: white;
+    transition: .4s;
+}
+
 .centered-container h2 {
     margin-bottom: 20px;
 }
