@@ -90,8 +90,12 @@ h2{
     margin-bottom: 24px;
 }
 
+.section h2 {
+    margin-bottom: 16px;
+}
 
 .section p {
+    padding: 0px;
     margin-bottom: 16px;
 }
 
