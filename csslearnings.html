@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 4 CSS Learnings | Tej Patel</title>
+    <link rel="shortcut icon" type="image/jpg" href="/images/favicon.ico"/>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7cb3499137.js" crossorigin="anonymous"></script>
+</head>
+</head>
+<body>
+    <nav class="navigation">
+        <div class="personallogo">
+            <img src="images/tejpatel.svg"/>
+        </div>
+        <ul class="list nav-elements">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="projects.html">Projects</a>
+            </li>
+            <li>
+                <a class="link-element-active" href="blog.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="blog-container">
+        <h1>Top CSS Tricks for Beginners</h1>
+
+        <small>26th November, 2020 </small> <br>
+        <br>
+        <p>
+            CSS stand for Cascading Style Sheets, and it is used to style our boring looking HTML pages .
+        </p>
+        <br>
+        <p>
+            When we are starting out with CSS it looks so daunting because there so much to learn and the most simplest of things seem so complex to achieve. Even trying to center elements can get you to scratch your head. The key is to not get overwhelmed and take small steps of understanding it.
+        </p>
+        <br>
+        <p>
+            I've had some similar experience while I was coding this website of mine. But after using my favourite search engine Google to figure things out I've learnt a lot of things which I think will be very useful for beginners just starting out with CSS.
+        </p>
+
+        <h2>1. All heading tags (H1 to H6) and "p" tag have default margin values.</h2>
+
+        <p>
+            All heading tags and paragraph tag have a default margin values. This can be a big problem if you are trying to fine tune your spacing around elements. The trick here is to reset the margins of all heading tags and paragraph tab to 0px in your CSS file so you have complete control over the spacing.
+        </p>
+
+        <img class="blog-image" src="/images/blogasset1.png" />
+
+        <h2>2. The unordered list "ul" and ordered list "ol" tags have a default padding of 40px to the left.</h2>
+
+        <p>
+            Unordered list is our first choice when we want to create navigation elements in our navigation bar or create links to our social media profiles in our footer. Usually we display the list items inside the unordered list in a line using the display:inline property and centering the elements by setting the text-align property of the "ul" or "ol" tag to center however your elements won't look dead centered because of that 40px left padding. The key here is to set the "ul" or "ol" tags padding to 0px. 
+        </p>
+
+        <p>
+            I won't recommend doing this globally since that default padding is necessary to create hierarchy when we are using lists normally. Ideally you would target the "ul" or "ol" inside your footer or navigation bar and then set the padding the 0px. 
+        </p>
+
+        <img class="blog-image" src="/images/blogasset2.png" />
+
+        
+        <h2>3. Add hover animations to your buttons.</h2>
+
+        <p>
+            Wait, I can add a hover animation even if I am a beginner? Yes!!! you read that right. Adding a hover animation is actually really simple. I can be done using the :hover pseudo-class in CSS. Refer the image below to see how to use it
+        </p>
+
+        <img class="blog-image" src="/images/blogasset3.png" />
+
+        <h2>
+            4. Using variables to store values that will be reused.
+        </h2>
+
+        <p>
+            Just type  - - followed by the variable name and then store the color values or any value that you want reuse. You can use the variables by specifying their name inside the var() function. I've used variables  for this website to store the colors that I have used on this website.
+        </p>
+
+        <p>
+            Just type  - - followed by the variable name and then store the color values or any value that you want reuse. You can use the variables by specifying their name inside the var() function. I've used variables  for this website to store the colors that I have used on this website.
+        </p>
+
+        <img class="blog-image" src="/images/blogasset4.png" />
+
+        <p>
+            So that's pretty much it. Thanks for reading and I hope you found this blog useful. Share this with your beginner web development friends so that they can learn a thing or two.
+        </p>
+
+        <p>
+            If you want to learn more about CSS you can check out the following resources <br>
+            CSS TRICKS : <a href="https://css-tricks.com" target="_blank">Go to website -></a> <br>
+
+            Mozilla Developer Network : <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">Go to website -></a>
+        </p>
+
+        <br>
+        <div class="centered-container">
+            <a href="blog.html" class="back-link">
+                <-Back to blogs
+            </a> 
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="footer-header"><h2>Let's Connect<h2></div>
+        <ul class="list footer-elements">
+            <li>
+                <a href="https://twitter.com/tejpatel_me" target="_blank">
+                    twitter.
+                    <i class="fab fa-twitter" style="font-size: 18px;">
+                    </i>
+                </a>
+            </li>
+            <li>
+                <a href="https://in.linkedin.com/in/tejpatel62" target="_blank">
+                    linkedin.
+                    <i class="fab fa-linkedin-in" style="font-size: 18px;"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/tejpatelme" target="_blank" >
+                    github.
+                    <i class="fab fa-github"
+                    style="font-size: 18px;"></i>
+                </a>
+            </li>
+        </ul>
+        <small>
+            Coded with ❤️ by me using pure HTML and CSS
+        </small>
+    </footer>
+</body>
+</html>
