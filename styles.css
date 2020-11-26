@@ -99,6 +99,15 @@ h2{
     margin-bottom: 16px;
 }
 
+.section .blog-image {
+    width: 100%;
+    max-width: 568px;
+    display:block;
+    margin:auto;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
 
 .navigation {
     padding-top: 1.5rem;
