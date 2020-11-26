@@ -224,10 +224,29 @@ h2{
 
 /* blog container */
 
+.blog-container .blog-image {
+    width: 100%;
+    max-width: 568px;
+    display: block;
+    margin: auto;
+    margin-bottom: auto;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
 .blog-container{
     line-height: 24px;
 }
 
 .blog-container small {
     margin-bottom: 24px;
+}
+
+.blog-container h2 {
+    margin-top: 24px;
+}
+
+.blog-container .back-link {
+    text-decoration: underline;
+    color: var(--body-color);
 }
