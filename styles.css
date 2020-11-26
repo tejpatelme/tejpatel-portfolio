@@ -18,9 +18,18 @@ body {
     padding: 0px 1rem;
 }
 
-h1,h2,h3,p,small {
+h1,h2,h3,p{
     margin: 0px;
 }
+
+h1 {
+    line-height: 56px;
+}
+
+h2 {
+    line-height: 40px;
+}
+
 
 a {
     text-decoration: none;
@@ -111,6 +120,7 @@ h2{
 
 .navigation {
     padding-top: 1.5rem;
+    margin-bottom: 32px;
 }
 
 .navigation .personallogo
@@ -209,4 +219,15 @@ h2{
     display: inline-block;
     margin-right: 8px;
     border-radius: 4px;
+}
+
+
+/* blog container */
+
+.blog-container{
+    line-height: 24px;
+}
+
+.blog-container small {
+    margin-bottom: 24px;
 }
