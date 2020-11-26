@@ -54,8 +54,12 @@ h2{
 }
 
 .primary-link{
-    background-color: var(--primary-color);
+    background-color: var(--secondary-color);
     color: white;
+}
+
+.primary-link:hover {
+    background-color: var(--primary-color);
 }
 
 .secondary-link {
@@ -69,7 +73,6 @@ h2{
 .secondary-link:hover {
     background-color: black;
     color: white;
-    transition: .4s;
 }
 
 .centered-container h2 {
