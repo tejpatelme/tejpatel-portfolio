@@ -92,7 +92,7 @@ h2{
 }
 
 .section {
-    padding: 16px;
+    padding: 1rem;
     background-color:var(--back-color) ;
     border-radius: 8px;
     margin-bottom: 24px;
@@ -149,7 +149,7 @@ h2{
 .hero {
     margin-top: 20px;
     margin-bottom: 48px;
-    padding: 16px;
+    padding: 1rem;
 }
 
 .hero a {
